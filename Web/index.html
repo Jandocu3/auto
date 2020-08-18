@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["make","Number of doors","Fuel Type","Body Style","Num of wheels","Length","width","height","horsepower","city-mpg"].value;
+  if (x == "") {
+    alert("Value must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" onsubmit="return validateForm()" method="post">
+<body>
+
+<h2>Car Price Prediction</h2>
+
+  
+  Model: <input type="text" name="Model"><br>
+ 
+  Number of doors: <input type="text"  name="Number of doors" ><br>
+ 
+  Fuel Type: <input type="text" name="Fuel Type"><br>
+ 
+  Body Style<input type="text"  name="Body Style"><br>
+
+  Num of wheels<input type="text"  name="Num of wheels"><br>
+ 
+  Length<input type="text"  name="Length"><br>
+
+  Width :<input type="text"  name="width"><br>
+
+  Height: <input type="text"  name="height"><br>
+ 
+  Horespower: <input type="text"  name="horsepower"><br>
+
+  City mpg :<input type="text"  name="city-mpg"><br>
+<br><br>
+
+   <input type="submit" onclick="location.href='one.html'" value="Submit" />
+  
+
+
+
+
+
+
+
+</body>
+</html>
